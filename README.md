@@ -1,6 +1,7 @@
 # Plesk-DynDNS
 Python script that you add to local host crontab and it will update your pleskDNS
 Small but generic script that you can use to get your self n Dynamic DNS for plesk.
+no special lib, just standard builtin python3
 
 **Requiments**
 
