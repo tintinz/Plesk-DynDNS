@@ -3,7 +3,9 @@ Python script that you add to local host crontab and it will update your pleskDN
 Small but generic script that you can use to get your self n Dynamic DNS for plesk.
 
 **Requiments**
-Python3,
+
+Python3
+
 subdomain: oldip   ( oldip.yourdomain.com, It uses it as refrens to compare if you have a new IP and if all record need to be change  )
 
 
@@ -12,9 +14,11 @@ it connect to your pleskhost and the specify domainname, looks for oldip.yourdom
 
 
 **How to use it**
-run it like python newip.py "Plekshost ip/fqdn:port" "domain to update" "username" "password"
+run it like 
 
-example.
+python newip.py "Plekshost ip/fqdn:port" "domain to update" "username" "password"
+
+**example:**
 python newip.py pleskhost.com:8443 yourdomain.com admin password123
 
 It will scan all records for "yourdaomain.com" and update it your new IP are diffrent from oldip.yourdomain.com
