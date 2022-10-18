@@ -12,9 +12,9 @@ it connect to your pleskhost and the specify domainname, looks for oldip.yourdom
 
 
 **How to use it**
-run it like python newIP.py "Plekshost ip/fqdn:port" "domain to update" "username" "password"
+run it like python newip.py "Plekshost ip/fqdn:port" "domain to update" "username" "password"
 
 example.
-python newIP.py pleskhost.com:8443 yourdomain.com admin password123
+python newip.py pleskhost.com:8443 yourdomain.com admin password123
 
 It will scan all records for "yourdaomain.com" and update it your new IP are diffrent from oldip.yourdomain.com
